@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #dbeafe 0%, transparent 55%),
+    radial-gradient(1200px 450px at 90% -20%, #e0f2fe 0%, transparent 60%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  color: #0f172a;
+  font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  transition: all 160ms ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.ap-hover-card {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.ap-hover-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.12);
+}
+
+.ap-gradient-cta {
+  background: linear-gradient(120deg, #2563eb, #0ea5e9, #22c55e, #2563eb);
+  background-size: 240% 240%;
+  animation: ap-gradient-slide 7s ease infinite;
+}
+
+@keyframes ap-gradient-slide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+::selection {
+  background: #bfdbfe;
+  color: #0f172a;
+}

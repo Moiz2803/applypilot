@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="120" y1="120" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="120" y="180" width="180" height="180" rx="52" fill="url(#mark)"/>
+  <path d="M170 315V220h37.5c22.8 0 38.6 17.2 38.6 42.5S230.7 313.6 208 313.6H183.6V315z" fill="#F8FAFC"/>
+  <path d="M183.8 286.8h21.5c9.8 0 16.8-6.3 16.8-17.2s-7-17.2-16.8-17.2h-21.5z" fill="#1E3A8A" opacity="0.45"/>
+  <path d="M252 210l-25.2 105h16.5L269 210z" fill="#BFDBFE"/>
+  <text x="340" y="290" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="84" font-weight="700">ApplyPilot</text>
+  <text x="344" y="350" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34">Smarter applications. Faster offers.</text>
+</svg>

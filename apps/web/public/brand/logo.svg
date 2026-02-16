@@ -1,0 +1,14 @@
+<svg width="512" height="128" viewBox="0 0 512 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="applypilot-grad" x1="12" y1="12" x2="116" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="104" height="104" rx="28" fill="url(#applypilot-grad)"/>
+  <path d="M40 86V42h21.8c13.6 0 23 8.4 23 20.8S75.4 85.3 62 85.3H48.3V86z" fill="#F8FAFC"/>
+  <path d="M48.4 72.3h12.7c5.8 0 9.9-3.1 9.9-8.4s-4.1-8.4-9.9-8.4H48.4z" fill="#1E3A8A" opacity="0.5"/>
+  <path d="M88 38L72.8 88h10L98 38z" fill="#BFDBFE"/>
+  <text x="140" y="68" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-0.02em">ApplyPilot</text>
+  <text x="141" y="94" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Smarter applications. Faster offers.</text>
+</svg>
